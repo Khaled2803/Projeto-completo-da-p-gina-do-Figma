@@ -53,10 +53,18 @@ body{
     width: 450px;
     color: gray;
     font-weight: normal;
-    margin-inline-start:5px;
+    margin:1px;
 }
 
 .section-two-image{
-    height: 350px;
-    
+    height: 500px;
+}
+
+.section-two button{
+    width: 181px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:deepskyblue;
+    color: aliceblue;
+    margin-top: 45px;
 }
