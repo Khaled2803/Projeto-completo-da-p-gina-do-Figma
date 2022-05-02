@@ -56,15 +56,60 @@ body{
     margin:1px;
 }
 
+
+.buttons button{
+    width: 181px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:#3E82FC;
+    color: aliceblue;
+    margin-top: 45px;
+    border:none;
+    font-weight: bold;
+}
+
+.button-two{
+    background-color: aliceblue !important;
+    color: #3E82FC !important;
+    margin-left: 35px;
+    border: solid 1px #3E82FC !important;
+}
+
+
 .section-two-image{
     height: 500px;
 }
 
-.section-two button{
-    width: 181px;
-    height: 60px;
-    border-radius: 30px;
-    background-color:deepskyblue;
-    color: aliceblue;
-    margin-top: 45px;
+
+.section-tree{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px;
+    margin-top: 200px;
 }
+
+.section-tree h3{
+    margin-top: 15px;
+    font-size: 13px;
+    width:180px;
+    margin: 2px;
+    color: grey;
+}
+
+.section-tree a{
+    color: red;
+}
+
+.section-four{
+    display:flex;
+   margin-top: 30px;
+   font-size: 15px;
+   color: grey;
+}
+
+.section-four span{
+    color: red;
+    font-weight: 40px;
+}
+
