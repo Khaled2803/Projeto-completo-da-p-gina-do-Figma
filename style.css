@@ -1,7 +1,7 @@
 
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0 ;
     box-sizing: border-box;
     
 }
@@ -12,9 +12,9 @@ body{
 
     header{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
-    margin: 30px;
+    margin: 35px;
 }
 
 .logo{
@@ -31,13 +31,15 @@ body{
 
 .menu ul a{
     color: black;
-    font-size:large;
+    font-size:25px;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .section-two{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin: 50px;
     padding: 70px;
     gap: 15px;
@@ -45,7 +47,8 @@ body{
 }
 
 .section-two ul h1{
-    font-size: 70px;
+    font-size: 60px;
+    width: 700px;
 }
 
 .section-two ul h4{
@@ -83,33 +86,120 @@ body{
 
 .section-tree{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 80px;
     margin-top: 200px;
+    font-size: 20px;
 }
 
 .section-tree h3{
-    margin-top: 15px;
-    font-size: 13px;
-    width:180px;
+    font-size: 18px;
+    width:250px;
     margin: 2px;
     color: grey;
+    font-weight: 500;
 }
 
+.information-two a{
+    text-decoration: none;
+}
+
+.information-tree a{
+    text-decoration: none;
+}
 .section-tree a{
     color: red;
 }
 
 .section-four{
     display:flex;
-   margin-top: 30px;
-   font-size: 15px;
+    align-self: center;
+    justify-content: center;
+   margin: 100px;
+   font-size: 20px;
    color: grey;
+}
+
+.section-four h3{
+    font-weight: 400;
 }
 
 .section-four span{
     color: red;
-    font-weight: 40px;
+    font-weight: 900;
+}
+
+.section-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+    
+}
+
+.section-five-text{
+   width: 40%;
+}
+.section-five h1{
+    font-size: 50px;
+    width: 400px;
+}
+
+.section-five h4{
+    font-size: 22px;
+    width: 320px;
+    font-weight: 480;
+    color: grey;
+}
+
+.section-five img{
+    height: 622px;
+    width: 488px;
+}
+
+.section-five button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:#3E82FC;
+    color: aliceblue;
+    margin-top: 45px;
+    border:none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-six-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px ;
+    
+}
+
+.section-six-text h3{
+    font-size: 23px;
+    color: #3E82FC;
+}
+
+.section-six-text h1{
+    font-size: 40px;
+}
+
+.section-six-images{
+    padding: 200px;
+}
+.section-six-image{ 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-six-image-two{
+    display: flex;
+    justify-content:space-around;   
+    padding: 90px;
 }
 
